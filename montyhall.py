@@ -10,7 +10,7 @@ def simulate(switch):
     if game was a failure, i.e. the chooser gets a goat'''
 
     # Fill in your code here
- car=random.randint(0,2)
+    car=random.randint(0,2)
     choice=random.randint(0,2) 
     reveal=[i for i in range(0,3) if i!=car and i!=choice]
     k=random.randint(0,len(reveal)-1)
